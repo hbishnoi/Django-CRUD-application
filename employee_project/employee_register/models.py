@@ -10,5 +10,5 @@ class Employee(models.Model):
     address = models.CharField(max_length=100)
     address2 = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
-    zipCode = models.BigIntegerField(max_length=100)
+    zipCode = models.BigIntegerField()
     state = models.CharField(max_length=100)
