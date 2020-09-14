@@ -1,6 +1,7 @@
 # Django-CRUD-application
 
 Django is a Python framework, so we must install Latest Python to machine.
+
 To Install Python, go to website https://python.org/downloads/. Download and Install it into your machine.
 After installation, open the command prompt and check that the Python version matches the version you installed by executing:
 > py –version
@@ -15,7 +16,7 @@ To install Postgres, go to https://www.postgresql.org/download/. Download and In
 Now, create a Database EmployeeDB  in Postgres.	
 
 Download this code zip and run these codes into your terminal or command prompt. Make sure you're in the folder —
->   python manage.py makemigrations employee_register
->   python manage.py sqlmigrate employee_register 0001	
->   python manage.py migrate
->   python manage.py server
+> python manage.py makemigrations employee_register
+> python manage.py sqlmigrate employee_register 0001	
+> python manage.py migrate
+> python manage.py server
