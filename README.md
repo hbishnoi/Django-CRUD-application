@@ -20,9 +20,9 @@ Download this zip code and run them into your IDE or command prompt —
 
 To apply changes into database like creating tables for the application, run this command (make sure in the folder employee_project):
 > \employee_project> python manage.py makemigrations employee_register
-> \employee_project>
+> 
 > \employee_project> python manage.py sqlmigrate employee_register 0001
-> \employee_project>
+> 
 > \employee_project> python manage.py migrate
 
 To run server on your browser where your project will run, run this command:
