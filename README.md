@@ -6,7 +6,7 @@ To Install Python, go to website https://python.org/downloads/. Download and Ins
 After installation, open the command prompt and check that if the Python version matches the version you installed by executing:
 > py –version
 
-After this, we need pip because it is a Python package manager, and it helps to install and uninstall python packages like Django.
+After this, we need pip because it is a Python package manager which comes with Python installer, It helps to install and uninstall python packages like Django.
 
 Install Django into your machine with a simple line of code into your command prompt:
 > py -m pip install Django
@@ -18,10 +18,10 @@ Open Postgresql and Create a Database 'EmployeeDB' in it.
 
 Download this zip code and run them into your IDE or command prompt —
 
-To apply changes into database like creating the table for the application with some other tables run this command:
+To apply changes into database like creating tables for the application, run this command:
 > python manage.py migrate
 
-To run server where your project will run into the browser run this command:
+To run server on your browser where your project will run, run this command:
 > python manage.py server
 
 Now click on the link http://127.0.0.1:8000/ in your terminal or command prompt which ever you are using.
